@@ -15,6 +15,7 @@
 		1E9EC8402063DC68000A5E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EC83F2063DC68000A5E17 /* main.m */; };
 		1E9EC84A2063DC68000A5E17 /* GZNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EC8492063DC68000A5E17 /* GZNetworkTests.m */; };
 		1E9EC8552063DC68000A5E17 /* GZNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EC8542063DC68000A5E17 /* GZNetworkUITests.m */; };
+		945A398F212427CBEF219EE5 /* libPods-GZNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC5D476DF0CEF162D86722E /* libPods-GZNetwork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F015C59A4CC38D180C47FA /* Pods-GZNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZNetwork/Pods-GZNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		07D46B8DF7F2388B7044325C /* Pods-GZNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZNetwork/Pods-GZNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		0AC5D476DF0CEF162D86722E /* libPods-GZNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EC82D2063DC68000A5E17 /* GZNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EC8302063DC68000A5E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E9EC8312063DC68000A5E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945A398F212427CBEF219EE5 /* libPods-GZNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				1E9EC8482063DC68000A5E17 /* GZNetworkTests */,
 				1E9EC8532063DC68000A5E17 /* GZNetworkUITests */,
 				1E9EC82E2063DC68000A5E17 /* Products */,
+				68AD21124B545F08F247FF9C /* Pods */,
+				CFB4F4DF0F2762660522A1D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = GZNetworkUITests;
 			sourceTree = "<group>";
 		};
+		68AD21124B545F08F247FF9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F015C59A4CC38D180C47FA /* Pods-GZNetwork.debug.xcconfig */,
+				07D46B8DF7F2388B7044325C /* Pods-GZNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFB4F4DF0F2762660522A1D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC5D476DF0CEF162D86722E /* libPods-GZNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E9EC8592063DC68000A5E17 /* Build configuration list for PBXNativeTarget "GZNetwork" */;
 			buildPhases = (
+				8B182714B08503C07501CF20 /* [CP] Check Pods Manifest.lock */,
 				1E9EC8292063DC68000A5E17 /* Sources */,
 				1E9EC82A2063DC68000A5E17 /* Frameworks */,
 				1E9EC82B2063DC68000A5E17 /* Resources */,
+				92B26A0CC375E0917026F2CC /* [CP] Embed Pods Frameworks */,
+				5B831921BBD922ADE9B37CE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B831921BBD922ADE9B37CE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GZNetwork/Pods-GZNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B182714B08503C07501CF20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GZNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B26A0CC375E0917026F2CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GZNetwork/Pods-GZNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E9EC8292063DC68000A5E17 /* Sources */ = {
@@ -428,6 +506,7 @@
 		};
 		1E9EC85A2063DC68000A5E17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F015C59A4CC38D180C47FA /* Pods-GZNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +520,7 @@
 		};
 		1E9EC85B2063DC68000A5E17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D46B8DF7F2388B7044325C /* Pods-GZNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

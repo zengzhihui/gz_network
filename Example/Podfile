@@ -1,0 +1,15 @@
+#--------------------------pod私有源--------------------------------------
+#source 'git@github.com:zengzhihui/gz_pod_specs.git'
+#source  'https://github.com/zengzhihui/gz_pod_specs.git'
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+def appPods
+    pod 'GZNetwork',:path => '../'
+end
+
+target 'GZNetwork' do
+    appPods
+end
+

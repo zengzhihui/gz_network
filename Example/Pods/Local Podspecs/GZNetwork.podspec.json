@@ -1,0 +1,18 @@
+{
+  "name": "GZNetwork",
+  "version": "0.0.1",
+  "summary": "网络基础库",
+  "description": "集成自己的网络基础库",
+  "homepage": "https://github.com/zengzhihui/gz_pod_specs",
+  "license": "MIT",
+  "authors": {
+    "zengzhihui": "zengzhihui008@gmail.com"
+  },
+  "source": {
+    "git": "/Users/zengzhihui/Documents/personalProjects/GZPodProject/gz_network"
+  },
+  "source_files": "GZNetwork/**/*.{h,m}",
+  "platforms": {
+    "ios": "8.0"
+  }
+}
