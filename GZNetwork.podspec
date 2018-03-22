@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/zengzhihui/gz_pod_specs'
   s.license          = 'MIT'
   s.author           = { 'zengzhihui' => 'zengzhihui008@gmail.com' }
+#本地pod source
   s.source = { :git => '/Users/zengzhihui/Documents/personalProjects/GZPodProject/gz_network' }
+#远程pod source
 #s.source           = { :git => "https://github.com/zengzhihui/gz_uibase.git", :tag => s.version.to_s }
   s.source_files     = 'GZNetwork/**/*.{h,m}'
 #  s.resources        = 'GZNetwork/image.xcassets'

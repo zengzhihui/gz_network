@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '364DA66221453894181324DD4BE4BA17'
-               BlueprintName = 'Pods-GZNetwork'
+               BlueprintIdentifier = '00A0CBFF543FC28741819153382C03FC'
+               BlueprintName = 'GZNetwork'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-GZNetwork.a'>
+               BuildableName = 'libGZNetwork.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

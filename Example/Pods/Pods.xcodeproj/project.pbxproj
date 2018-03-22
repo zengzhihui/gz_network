@@ -3,36 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16D68A2F449A51E9A18E7B9BCED0E291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1E9EC8642063E2FE000A5E17 /* GZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EC8632063E2FE000A5E17 /* GZNetworkManager.m */; };
-		B52B2587D3D1F874EE499359DB75D9EB /* Pods-GZNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6863327CA2DC8FC9331F7CAAE9308 /* Pods-GZNetwork-dummy.m */; };
+		02CC58EF3E9F96F508DF7031734FC8F1 /* Pods-GZNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B6863327CA2DC8FC9331F7CAAE9308 /* Pods-GZNetwork-dummy.m */; };
+		180A27419DCE0727F6A1F98D7042B770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F256DEE1D7C843C86A6EFDDB8933A8F /* GZNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7237D102FC06EB5D36057878FADFAC /* GZNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA972DBF4B4D66A47313A0881A23CEA /* GZNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A86FD36EE744833DFF7019138DF34B4 /* GZNetwork-dummy.m */; };
+		6E8192A6DC7E7EAB7A429AD2FE604532 /* GZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED239CE911EC65400ED77079721AB8B /* GZNetworkManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C04D9BC49642D6054958B6A173ED9EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66BC89A13800DE7E12D4818DE7CB9B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A0CBFF543FC28741819153382C03FC;
+			remoteInfo = GZNetwork;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		091580A231ADECA2AC6678F6A4F29490 /* Pods-GZNetwork-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZNetwork-resources.sh"; sourceTree = "<group>"; };
+		09CAA6379C5B9ED5AD880A462BDCE269 /* libPods-GZNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GZNetwork.a"; path = "libPods-GZNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6494533EFFA057FA53193C658C6703 /* libGZNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGZNetwork.a; path = libGZNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED239CE911EC65400ED77079721AB8B /* GZNetworkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZNetworkManager.m; path = GZNetwork/GZNetworkManager.m; sourceTree = "<group>"; };
 		0F1C566123FDE9D82EFE8324C03A31D4 /* Pods-GZNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZNetwork.release.xcconfig"; sourceTree = "<group>"; };
-		1E9EC8622063E2FE000A5E17 /* GZNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GZNetworkManager.h; path = GZNetwork/GZNetworkManager.h; sourceTree = "<group>"; };
-		1E9EC8632063E2FE000A5E17 /* GZNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GZNetworkManager.m; path = GZNetwork/GZNetworkManager.m; sourceTree = "<group>"; };
+		2A86FD36EE744833DFF7019138DF34B4 /* GZNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZNetwork-dummy.m"; sourceTree = "<group>"; };
+		2B7237D102FC06EB5D36057878FADFAC /* GZNetworkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZNetworkManager.h; path = GZNetwork/GZNetworkManager.h; sourceTree = "<group>"; };
 		4CE022563B2FAB4E2FDA7563C9E1FB56 /* Pods-GZNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		5338DB1458C33B6DCD7C7576E476659A /* GZNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZNetwork-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8A567809F1CE0D4A81AB9E0FD6AE279E /* Pods-GZNetwork-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZNetwork-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B556B5CA1E1209790C06934F25FA274B /* Pods-GZNetwork-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZNetwork-frameworks.sh"; sourceTree = "<group>"; };
 		BB05C16B66D31C97538D92871604CE70 /* Pods-GZNetwork-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZNetwork-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8F1EC53124269D10F6DEB1B3CE609A1 /* libPods-GZNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2665A619D5C1E31FB04670C423A51EE /* GZNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZNetwork.xcconfig; sourceTree = "<group>"; };
 		E6B6863327CA2DC8FC9331F7CAAE9308 /* Pods-GZNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZNetwork-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE87F144B2A2C95E7F9985684C2037B0 /* Frameworks */ = {
+		493920BA65BC50C59641B23D25513652 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D68A2F449A51E9A18E7B9BCED0E291 /* Foundation.framework in Frameworks */,
+				180A27419DCE0727F6A1F98D7042B770 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAEC4807DA0A1EE11690724F878E7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04D9BC49642D6054958B6A173ED9EE7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,20 +72,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		36D7318731D09D64CE08F29B040358D7 /* Products */ = {
+		458D584270C10766C0D7ABD2DC11AD78 /* GZNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				D8F1EC53124269D10F6DEB1B3CE609A1 /* libPods-GZNetwork.a */,
+				2B7237D102FC06EB5D36057878FADFAC /* GZNetworkManager.h */,
+				0ED239CE911EC65400ED77079721AB8B /* GZNetworkManager.m */,
+				891AFBE282ED94FDB5DF3331B034E28B /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4386575F71EE394047B309C980AB82A6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B32E6E3F4F7DFC5CE5085DC98588B6A4 /* GZNetwork */,
-			);
-			name = "Development Pods";
+			name = GZNetwork;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6A43B01852E54DC6FDCA01A6B26B724D /* Pods-GZNetwork */ = {
@@ -78,25 +98,35 @@
 			path = "Target Support Files/Pods-GZNetwork";
 			sourceTree = "<group>";
 		};
+		799A13E9D17F02FF5562080F4AFA182E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6494533EFFA057FA53193C658C6703 /* libGZNetwork.a */,
+				09CAA6379C5B9ED5AD880A462BDCE269 /* libPods-GZNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4386575F71EE394047B309C980AB82A6 /* Development Pods */,
+				CC5BB263CC14275BACAAD451EE3C944B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				36D7318731D09D64CE08F29B040358D7 /* Products */,
+				799A13E9D17F02FF5562080F4AFA182E /* Products */,
 				14AA3DA86A2072EA549E0213DFB38CC9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B32E6E3F4F7DFC5CE5085DC98588B6A4 /* GZNetwork */ = {
+		891AFBE282ED94FDB5DF3331B034E28B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E9EC8622063E2FE000A5E17 /* GZNetworkManager.h */,
-				1E9EC8632063E2FE000A5E17 /* GZNetworkManager.m */,
+				E2665A619D5C1E31FB04670C423A51EE /* GZNetwork.xcconfig */,
+				2A86FD36EE744833DFF7019138DF34B4 /* GZNetwork-dummy.m */,
+				5338DB1458C33B6DCD7C7576E476659A /* GZNetwork-prefix.pch */,
 			);
-			name = GZNetwork;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GZNetwork";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -105,6 +135,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC5BB263CC14275BACAAD451EE3C944B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458D584270C10766C0D7ABD2DC11AD78 /* GZNetwork */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -117,21 +155,50 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C4200EDD0A34CA869BF7224AFA6C3EAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F256DEE1D7C843C86A6EFDDB8933A8F /* GZNetworkManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B949110D3ECDAF28C37035C2367DF93E /* Pods-GZNetwork */ = {
+		00A0CBFF543FC28741819153382C03FC /* GZNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 103870CC1CBCAFB34B0C6B5E02726B39 /* Build configuration list for PBXNativeTarget "Pods-GZNetwork" */;
+			buildConfigurationList = B534343E578AB9A45C4D430C24F5F49A /* Build configuration list for PBXNativeTarget "GZNetwork" */;
 			buildPhases = (
-				6D0437A897E0EB88669C976E1BDE6C32 /* Sources */,
-				FE87F144B2A2C95E7F9985684C2037B0 /* Frameworks */,
+				E55EB965129CE9596104DC544D8F317D /* Sources */,
+				493920BA65BC50C59641B23D25513652 /* Frameworks */,
+				C4200EDD0A34CA869BF7224AFA6C3EAA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = GZNetwork;
+			productName = GZNetwork;
+			productReference = 0C6494533EFFA057FA53193C658C6703 /* libGZNetwork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		364DA66221453894181324DD4BE4BA17 /* Pods-GZNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEE545223F7F263C2FE7D48D1623F49 /* Build configuration list for PBXNativeTarget "Pods-GZNetwork" */;
+			buildPhases = (
+				9033D0795CEA0F44A7CE1E3F7ABDF78E /* Sources */,
+				DEAEC4807DA0A1EE11690724F878E7A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4946BEC4880F8791F74B916D4DC4EA /* PBXTargetDependency */,
+			);
 			name = "Pods-GZNetwork";
 			productName = "Pods-GZNetwork";
-			productReference = D8F1EC53124269D10F6DEB1B3CE609A1 /* libPods-GZNetwork.a */;
+			productReference = 09CAA6379C5B9ED5AD880A462BDCE269 /* libPods-GZNetwork.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -151,28 +218,109 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 36D7318731D09D64CE08F29B040358D7 /* Products */;
+			productRefGroup = 799A13E9D17F02FF5562080F4AFA182E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B949110D3ECDAF28C37035C2367DF93E /* Pods-GZNetwork */,
+				00A0CBFF543FC28741819153382C03FC /* GZNetwork */,
+				364DA66221453894181324DD4BE4BA17 /* Pods-GZNetwork */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D0437A897E0EB88669C976E1BDE6C32 /* Sources */ = {
+		9033D0795CEA0F44A7CE1E3F7ABDF78E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52B2587D3D1F874EE499359DB75D9EB /* Pods-GZNetwork-dummy.m in Sources */,
-				1E9EC8642063E2FE000A5E17 /* GZNetworkManager.m in Sources */,
+				02CC58EF3E9F96F508DF7031734FC8F1 /* Pods-GZNetwork-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55EB965129CE9596104DC544D8F317D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA972DBF4B4D66A47313A0881A23CEA /* GZNetwork-dummy.m in Sources */,
+				6E8192A6DC7E7EAB7A429AD2FE604532 /* GZNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9C4946BEC4880F8791F74B916D4DC4EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GZNetwork;
+			target = 00A0CBFF543FC28741819153382C03FC /* GZNetwork */;
+			targetProxy = 66BC89A13800DE7E12D4818DE7CB9B4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		465EE190584BE700ECD2FFB8020465D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2665A619D5C1E31FB04670C423A51EE /* GZNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GZNetwork/GZNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77EC0435A3CAC2716E4FBA4B3E2B4873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2665A619D5C1E31FB04670C423A51EE /* GZNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GZNetwork/GZNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64A9743E38E7F77C4B216F8C11D4953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE022563B2FAB4E2FDA7563C9E1FB56 /* Pods-GZNetwork.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -228,9 +376,9 @@
 			};
 			name = Release;
 		};
-		B7FB32D8483B4123CE82544F6F0166DE /* Debug */ = {
+		BB8079AC2A60919153741220926F83DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CE022563B2FAB4E2FDA7563C9E1FB56 /* Pods-GZNetwork.debug.xcconfig */;
+			baseConfigurationReference = 0F1C566123FDE9D82EFE8324C03A31D4 /* Pods-GZNetwork.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -245,8 +393,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -308,44 +457,32 @@
 			};
 			name = Debug;
 		};
-		F07030AD51F1AF2749BC2C76C0FA08D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F1C566123FDE9D82EFE8324C03A31D4 /* Pods-GZNetwork.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		103870CC1CBCAFB34B0C6B5E02726B39 /* Build configuration list for PBXNativeTarget "Pods-GZNetwork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7FB32D8483B4123CE82544F6F0166DE /* Debug */,
-				F07030AD51F1AF2749BC2C76C0FA08D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
 				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEE545223F7F263C2FE7D48D1623F49 /* Build configuration list for PBXNativeTarget "Pods-GZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64A9743E38E7F77C4B216F8C11D4953 /* Debug */,
+				BB8079AC2A60919153741220926F83DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B534343E578AB9A45C4D430C24F5F49A /* Build configuration list for PBXNativeTarget "GZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EC0435A3CAC2716E4FBA4B3E2B4873 /* Debug */,
+				465EE190584BE700ECD2FFB8020465D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
